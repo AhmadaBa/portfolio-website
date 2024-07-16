@@ -10,7 +10,7 @@ const Navbar = () => {
     const pathname = usePathname();
 
     return (
-        <nav class="bg-inherit fixed flex w-full border border-indigo-600">
+        <nav class="bg-inherit flex w-full border border-indigo-600">
             <div class="flex items-center justify-center mx-auto mt-10 md:mt-20 p-4 border border-orange-600">
                 <div class="flex w-auto border border-yellow-600 " id="navbar-sticky">
                     <ul class="flex flex-row flex-wrap space-x-10 p-0 mt-0 font-medium border md:space-x-16 text-lg p-0 font-mono">
