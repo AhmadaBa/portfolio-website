@@ -13,7 +13,7 @@ const Navbar = () => {
         <nav class="bg-inherit flex w-full border border-indigo-600">
             <div class="flex items-center justify-center mx-auto mt-10 md:mt-20 p-4 border border-orange-600">
                 <div class="flex w-auto border border-yellow-600 " id="navbar-sticky">
-                    <ul class="flex flex-row flex-wrap space-x-10 p-0 mt-0 font-medium border md:space-x-16 text-lg p-0 font-mono">
+                    <ul class="flex flex-row flex-wrap space-x-10 mt-0 font-medium border md:space-x-16 text-lg p-0 font-mono">
                         <li class="hover:scale-110" style={{ color: pathname === "/" ? "#FF7F50" : "white" }}>
                             <Link href="/" className="md:block md:py-2 md:px-3">
                                 <GoHome className="inline align-middle mr-2" size={25} />
