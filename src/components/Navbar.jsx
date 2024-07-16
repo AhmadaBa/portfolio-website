@@ -1,5 +1,6 @@
 "use client";
 import React from 'react';
+import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { GoHome } from 'react-icons/go';
 import { MdOutlineWorkOutline, MdOutlineComputer } from "react-icons/md";
@@ -12,22 +13,30 @@ const Navbar = () => {
         <nav class="bg-inherit fixed flex w-full border border-indigo-600">
             <div class="flex items-center justify-center mx-auto mt-10 md:mt-20 p-4 border border-orange-600">
                 <div class="flex w-auto border border-yellow-600 " id="navbar-sticky">
-                    <ul class="flex flex-row flex-wrap space-x-10 p-0 mt-0 font-medium border md:space-x-16">
-                        <li className="text-lg p-0 hover:scale-110 font-mono" style={{ color: pathname === "/" ? "#FF7F50" : "white" }}>
-                            <a href="#" class="hidden md:block md:py-2 md:px-3"><GoHome class="inline align-middle mr-2" />Home</a>
-                            <GoHome class="md:hidden inline align-middle mr-2" size={25} />
+                    <ul class="flex flex-row flex-wrap space-x-10 p-0 mt-0 font-medium border md:space-x-16 text-lg p-0 font-mono">
+                        <li class="hover:scale-110" style={{ color: pathname === "/" ? "#FF7F50" : "white" }}>
+                            <Link href="/" className="md:block md:py-2 md:px-3">
+                                <GoHome className="inline align-middle mr-2" size={25} />
+                                <span className="hidden md:inline">Home</span>
+                            </Link>
                         </li>
-                        <li className="text-lg p-0 hover:scale-110 font-mono" style={{ color: pathname === "/" ? "#FF7F50" : "white" }}>
-                            <a href="#" class="hidden md:block md:py-2 md:px-3"><MdOutlineWorkOutline class="inline align-middle mr-2" />Experience</a>
-                            <MdOutlineWorkOutline class="md:hidden inline align-middle mr-2" size={25} />
+                        <li class="hover:scale-110" style={{ color: pathname === "/Experience" ? "#FF7F50" : "white" }}>
+                            <Link href="/Experience" className="md:block md:py-2 md:px-3">
+                                <MdOutlineWorkOutline className="inline align-middle mr-2" size={25} />
+                                <span className="hidden md:inline">Experiences</span>
+                            </Link>
                         </li>
-                        <li className="text-lg p-0 hover:scale-110 font-mono" style={{ color: pathname === "/" ? "#FF7F50" : "white" }}>
-                            <a href="#" class="hidden md:block md:py-2 md:px-3"><MdOutlineComputer class="inline align-middle mr-2" />Project </a>
-                            <MdOutlineComputer class="md:hidden inline align-middle mr-2" size={25} />
+                        <li class="hover:scale-110" style={{ color: pathname === "/Project" ? "#FF7F50" : "white" }}>
+                            <Link href="/Project" className="md:block md:py-2 md:px-3">
+                                <MdOutlineComputer className="inline align-middle mr-2" size={25} />
+                                <span className="hidden md:inline">Projects</span>
+                            </Link>
                         </li>
-                        <li className="text-lg p-0 hover:scale-110 font-mono" style={{ color: pathname === "/" ? "#FF7F50" : "white" }}>
-                            <a href="#" class="hidden md:block md:py-2 md:px-3"><BiCameraMovie class="inline align-middle mr-2" />Movies</a>
-                            <BiCameraMovie class="md:hidden inline align-middle mr-2" size={25} />
+                        <li class="hover:scale-110" style={{ color: pathname === "/Movies" ? "#FF7F50" : "white" }}>
+                            <Link href="/Movies" className="md:block md:py-2 md:px-3">
+                                <BiCameraMovie className="inline align-middle mr-2" size={25} />
+                                <span className="hidden md:inline">Movies</span>
+                            </Link>
                         </li>
                     </ul>
                 </div>
