@@ -11,7 +11,7 @@ const Navbar = () => {
 
     return (
         <nav class="bg-inherit flex w-full">
-            <div class="flex items-center justify-center mx-auto mt-10 md:mt-20 p-4">
+            <div class="flex items-center justify-center mx-auto  md:mt-20 p-4">
                 <div class="flex w-auto" id="navbar-sticky">
                     <ul class="flex flex-row flex-wrap space-x-10 mt-0 font-medium  md:space-x-16 text-lg p-0 font-mono">
                         <li class="hover:scale-110" style={{ color: pathname === "/" ? "#FF7F50" : "white" }}>
