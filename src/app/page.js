@@ -4,7 +4,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className="border border-purple-800 flex flex-col items-center h-screen">
+    <main className="border border-purple-800 flex flex-col items-center md:h-screen">
       <div className="border border-blue-300 w-5/6 text-md h-full flex flex-col">
         <section>
           <h1 className="text-3xl mb-8">Hello, I'm Ahmad 👋</h1>

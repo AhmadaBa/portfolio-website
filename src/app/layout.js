@@ -5,15 +5,17 @@ import Head from 'next/head'
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <Head>
-        <meta name="viewport" content="viewport-fit=cover" />
-        <h1>meow</h1>
-      </Head>
-      <body class=" border border-green-500">
+    <html lang="en" class="h-full">
+      <body class="flex min-h-full flex-col">
+
+        <Head>
+          <meta name="viewport" content="viewport-fit=cover" />
+        </Head>
+
         <Nav />
         {children}
         <Footer />
+        
       </body>
     </html>
   );
