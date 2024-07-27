@@ -22,25 +22,25 @@ export default function Home() {
 
         <section class="mb-8">
           <h2 class="text-2xl">In my free time, I enjoy:</h2>
-          <ul class="space-y-2 text-sm">
-            <li>‣ Playing chess ♟️.</li>
-            <li>‣ Watching movies 🎬 & listening to music 🎵.</li>
-            <li>‣ Spending time with family & friends 👨‍👩‍👧‍👦.</li>
-            <li>‣ Exploring new technologies 🔍.</li>
-            <li>‣ Learning new programming languages 📚.</li>
-            <li>‣ Participating in hackathons 🏆.</li>
-            <li>‣ Traveling & experiencing new cultures 🌍.</li>
+          <ul class="space-y-2 text-sm list-arrow">
+            <li> Playing chess ♟️.</li>
+            <li> Watching movies 🎬 & listening to music 🎵.</li>
+            <li> Spending time with family & friends 👨‍👩‍👧‍👦.</li>
+            <li> Exploring new technologies 🔍.</li>
+            <li> Learning new programming languages 📚.</li>
+            <li> Participating in hackathons 🏆.</li>
+            <li> Traveling & experiencing new cultures 🌍.</li>
           </ul>
         </section>
 
         <section  class="mb-8">
           <h2 class="text-2xl">Skills & Interests:</h2>
-          <ul class="space-y-2 text-sm">
-            <li>‣ Backend Development 🐍</li>
-            <li>‣ Frontend Development ⚛️</li>
-            <li>‣ Deep Learning and Artificial Intelligence 🤖</li>
-            <li>‣ User Interface & User Experience Design 🎨</li>
-            <li>‣ Networking and Cybersecurity 🔐</li>
+          <ul class="space-y-2 text-sm list-arrow">
+            <li> Backend Development 🐍</li>
+            <li> Frontend Development ⚛️</li>
+            <li> Deep Learning and Artificial Intelligence 🤖</li>
+            <li> User Interface & User Experience Design 🎨</li>
+            <li> Networking and Cybersecurity 🔐</li>
           </ul>
         </section>
 

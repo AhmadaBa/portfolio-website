@@ -7,9 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-      },
-    },
+    }
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        '.list-arrow li::before': {
+          content: '"\\2023"', /* Insert the custom bullet symbol */
+        },
+      });
+    },
+  ]
 };
+
