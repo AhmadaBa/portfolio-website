@@ -1,3 +1,7 @@
+import { FaLinkedin } from "react-icons/fa6";
+import { IoIosMail } from "react-icons/io";
+import { FaGithub } from "react-icons/fa";
+
 export const metadata = {
   title: "Home - Ahmad B",
 };
@@ -48,10 +52,22 @@ export default function Home() {
           <h2 class="text-3xl">Let's Connect!</h2>
           <p>Feel free to reach out to me on LinkedIn or GitHub, or drop me an email!</p>
           <p> I'm always excited to connect with like-minded individuals and explore new opportunities 🌐.</p>
-          <ul>
-            <li>LinkedIn: [Your LinkedIn Profile]</li>
-            <li>GitHub: [Your GitHub Profile]</li>
-            <li>Email: [Your Email Address]</li>
+          <ul class="space-y-1 ">
+            <li>
+              <a href="https://www.linkedin.com/in/ahmadbakhitalfayez/" className="underline" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin className="inline-block mr-2" size={25} />ahmadbakhitalfayez
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/AhmadaBa" className="underline" target="_blank" rel="noopener noreferrer">
+                <FaGithub className="inline-block mr-2" size={25} />AhmadaBa
+              </a>
+            </li>
+            <li>
+              <a href="mailto:ahmadbakhitalfayez@gmail.com" className="underline" target="_blank" rel="noopener noreferrer">
+                <IoIosMail  className="inline-block mr-2" size={25} />ahmadbakhitalfayez@gmail.com
+              </a>
+            </li>
           </ul>
         </section>
 
