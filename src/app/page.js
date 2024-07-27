@@ -4,7 +4,8 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className="border border-purple-800 flex flex-col items-center md:h-screen">
+    <main className="border border-purple-800 flex flex-col items-center md:h-screen text-base ">
+
       <div className="border border-blue-300 w-5/6 text-md h-full flex flex-col">
         <section>
           <h1 className="text-3xl mb-8">Hello, I'm Ahmad 👋</h1>
@@ -19,32 +20,34 @@ export default function Home() {
           <p className="mb-8">I thrive on collaborating within teams 🤝, where I can leverage collective creativity and skills to solve complex problems and develop innovative solutions 🛠️.</p>
         </section>
 
-        <section>
-          <h2>In my free time, I enjoy:</h2>
-          <ul>
-            <li>Playing chess ♟️</li>
-            <li>Watching movies 🎬 and listening to music 🎵</li>
-            <li>Spending time with family and friends 👨‍👩‍👧‍👦</li>
-            <li>Exploring new technologies and learning new programming languages 📚</li>
-            <li>Participating in hackathons and coding competitions 🏆</li>
-            <li>Traveling and experiencing new cultures 🌍</li>
+        <section class="mb-8">
+          <h2 class="text-2xl">In my free time, I enjoy:</h2>
+          <ul class="space-y-2 text-sm">
+            <li>‣ Playing chess ♟️.</li>
+            <li>‣ Watching movies 🎬 & listening to music 🎵.</li>
+            <li>‣ Spending time with family & friends 👨‍👩‍👧‍👦.</li>
+            <li>‣ Exploring new technologies 🔍.</li>
+            <li>‣ Learning new programming languages 📚.</li>
+            <li>‣ Participating in hackathons 🏆.</li>
+            <li>‣ Traveling & experiencing new cultures 🌍.</li>
           </ul>
         </section>
 
-        <section>
-          <h2>Skills & Interests:</h2>
-          <ul>
-            <li>Backend Development with Node.js and Python 🐍</li>
-            <li>Frontend Development with React.js ⚛️</li>
-            <li>Deep Learning and Artificial Intelligence 🤖</li>
-            <li>User Interface and User Experience Design 🎨</li>
-            <li>Networking and Cybersecurity 🔐</li>
+        <section  class="mb-8">
+          <h2 class="text-2xl">Skills & Interests:</h2>
+          <ul class="space-y-2 text-sm">
+            <li>‣ Backend Development 🐍</li>
+            <li>‣ Frontend Development ⚛️</li>
+            <li>‣ Deep Learning and Artificial Intelligence 🤖</li>
+            <li>‣ User Interface & User Experience Design 🎨</li>
+            <li>‣ Networking and Cybersecurity 🔐</li>
           </ul>
         </section>
 
-        <section>
-          <h2>Let's Connect!</h2>
-          <p className="mb-8">Feel free to reach out to me on LinkedIn or GitHub, or drop me an email. I'm always excited to connect with like-minded individuals and explore new opportunities 🌐.</p>
+        <section class="space-y-3">
+          <h2 class="text-3xl">Let's Connect!</h2>
+          <p>Feel free to reach out to me on LinkedIn or GitHub, or drop me an email!</p>
+          <p> I'm always excited to connect with like-minded individuals and explore new opportunities 🌐.</p>
           <ul>
             <li>LinkedIn: [Your LinkedIn Profile]</li>
             <li>GitHub: [Your GitHub Profile]</li>
