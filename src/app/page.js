@@ -50,7 +50,7 @@ export default function Home() {
           <h2 class="text-3xl">Let's Connect!</h2>
           <p>Feel free to reach out to me on LinkedIn or GitHub, or drop me an email!</p>
           <p> I'm always excited to connect with like-minded individuals and explore new opportunities 🌐.</p>
-          <ul class="space-y-1 ">
+          <ul class="space-y-1">
             <li>
               <a href="https://www.linkedin.com/in/ahmadbakhitalfayez/" className="underline" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className="inline-block mr-2" size={25} />ahmadbakhitalfayez
@@ -62,7 +62,7 @@ export default function Home() {
               </a>
             </li>
             <li>
-              <a href="mailto:ahmadbakhitalfayez@gmail.com" className="underline" target="_blank" rel="noopener noreferrer">
+              <a href="mailto:ahmadbakhitalfayez@gmail.com" className="underline whitespace-nowrap" target="_blank" rel="noopener noreferrer">
                 <IoIosMail  className="inline-block mr-2" size={25} />ahmadbakhitalfayez@gmail.com
               </a>
             </li>
