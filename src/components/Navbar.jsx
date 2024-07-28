@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { GoHome } from 'react-icons/go';
 import { MdOutlineWorkOutline, MdOutlineComputer } from "react-icons/md";
 import { BiCameraMovie } from "react-icons/bi";
+import { IoSchoolOutline } from "react-icons/io5";
 
 const Navbar = () => {
     const pathname = usePathname();
@@ -13,13 +14,21 @@ const Navbar = () => {
         <nav class="bg-inherit flex w-full">
             <div class="flex items-center justify-center mx-auto  md:mt-10 p-4">
                 <div class="flex w-auto" id="navbar-sticky">
-                    <ul class="flex flex-row flex-wrap space-x-10 mt-0 font-medium  md:space-x-16 text-lg p-0 font-mono">
+                    <ul class="flex flex-row flex-wrap space-x-7 mt-0 font-medium text-lg p-0 font-mono">
                         <li class="hover:scale-110" style={{ color: pathname === "/" ? "#FF7F50" : "white" }}>
                             <Link href="/" className="md:block md:py-2 md:px-3">
                                 <GoHome className="inline align-middle mr-2" size={25} />
                                 <span className="hidden md:inline">Home</span>
                             </Link>
                         </li>
+
+                        <li class="hover:scale-110" style={{ color: pathname === "/Education" ? "#FF7F50" : "white" }}>
+                            <Link href="/Education" className="md:block md:py-2 md:px-3">
+                                <IoSchoolOutline className="inline align-middle mr-2" size={25} />
+                                <span className="hidden md:inline">Education</span>
+                            </Link>
+                        </li>
+
                         <li class="hover:scale-110" style={{ color: pathname === "/Experience" ? "#FF7F50" : "white" }}>
                             <Link href="/Experience" className="md:block md:py-2 md:px-3">
                                 <MdOutlineWorkOutline className="inline align-middle mr-2" size={25} />
