@@ -14,9 +14,10 @@
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     background-color: #131516;
     background-size: cover;
-    overflow-y: scroll;  
-    color: whitesmoke
+    overflow-y: auto;  
+    color: whitesmoke;
     }
+
 
 
 

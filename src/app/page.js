@@ -8,9 +8,8 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className="border border-purple-800 flex flex-col items-center md:h-screen text-base md:text-lg ">
-
-      <div className="border border-blue-300 w-5/6 text-md h-full flex flex-col">
+    <main className="border border-purple-800 flex flex-col items-center md:h-auto text-base md:text-lg ">
+      <div className="border border-blue-300 w-5/6 text-md flex flex-col">
         <section>
           <h1 className="text-3xl mb-8">Hello, I'm Ahmad 👋</h1>
           <p class="mb-8">I'm a Senior Computer Science student at The University of Texas at Dallas, graduating in Fall 2024 🎓.</p>
@@ -27,12 +26,11 @@ export default function Home() {
         <section class="mb-8">
           <h2 class="text-2xl">In my free time, I enjoy:</h2>
           <ul class="space-y-2 text-sm md:text-base list-arrow">
-            <li> Playing chess ♟️.</li>
+            <li> Playing chess ♟️</li>
             <li> Watching movies 🎬 & listening to music 🎵</li>
             <li> Spending time with family & friends 👨‍👩‍👧‍👦</li>
             <li> Exploring new technologies 🔍</li>
             <li> Learning new programming languages 📚</li>
-            <li> Participating in hackathons 🏆</li>
             <li> Traveling & experiencing new cultures 🌍</li>
           </ul>
         </section>

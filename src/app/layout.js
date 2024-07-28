@@ -5,8 +5,8 @@ import Head from 'next/head'
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" class="h-full">
-      <body class="flex min-h-full flex-col">
+    <html lang="en">
+      <body>
 
         <Head>
           <meta name="viewport" content="viewport-fit=cover" />
