@@ -1,12 +1,10 @@
-import { FaGraduationCap } from "react-icons/fa";
-
 export default function Education() {
   return (
     <main className="flex flex-col items-center md:h-auto h-fit text-base md:text-lg">
-      <div className="w-5/6 text-md flex flex-col">
+      <div className="w-5/6 md:w-3/12 text-md flex flex-col">
         <section className="mb-8 pt-3">
           <div className="space-y-8">
-            <div className="pb-4 border-b space-y-2">
+            <div className="pb-4  space-y-2">
               <div className="flex items-center">
                 <img src="/logos/UTD.jpg" alt="UTD Logo" className="w-12 h-12 mr-2" />
                 <div className="flex flex-col">
@@ -19,7 +17,7 @@ export default function Education() {
               <p><strong>Relevant Coursework:</strong> Data Structures, Algorithms, Network Security, Machine Learning</p>
             </div>
 
-            <div className="pb-4 border-b space-y-2">
+            <div className="pb-4  space-y-2">
               <div className="flex items-center">
                 <img src="/logos/Dallas-College.jpg" alt="Dallas College Logo" className="w-12 h-12 mr-2" />
                 <div className="flex flex-col">
