@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className=" flex flex-col items-center md:h-auto text-base md:text-lg ">
+    <main className=" flex flex-col items-center md:h-fit text-base md:text-lg ">
       <div className=" w-5/6 text-md flex flex-col">
         <section>
           <h1 className="text-3xl mb-8">Hello, I'm Ahmad 👋</h1>
