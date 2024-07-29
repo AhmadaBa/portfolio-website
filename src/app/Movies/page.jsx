@@ -19,9 +19,11 @@ const Movies = async () => {
   ];
 
   const watchlistToFetch = [
-    { title: "The Matrix", year: 1999 },
-    { title: "Fight Club", year: 1999 },
-    // Add more watchlist movies as needed
+    { title: "Oppenheimer", year: 2023 },
+    { title: "interstellar", year: 2014 },
+    { title: "Napoleon", year: 2023 },
+    { title: "The Equalizer 3", year: 2023 },
+    { title: "Dune: Part Two", year: 2024 }
   ];
 
   const fetchMovies = async (movies) => {
