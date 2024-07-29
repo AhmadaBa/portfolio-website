@@ -14,6 +14,7 @@ export const fetchMovieImage = async (title, year) => {
   try {
     const response = await fetch(url, options);
 
+
     if (!response.ok) {
       throw new Error(`Failed to fetch movie with title: ${title} and year: ${year}`);
     }
