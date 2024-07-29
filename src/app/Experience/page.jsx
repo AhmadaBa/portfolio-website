@@ -24,12 +24,12 @@ const Experience = () => {
                   </div>
                 </div>
               </div>
-              <ul className="mt-4 list-disc list-inside">
-                <li>Rewrote legacy code from callbacks to async/await, improving performance by approximately 40%.</li>
-                <li>Developed an AI image generation bot using the OpenAI API, with robust fallback mechanisms for failure scenarios.</li>
-                <li>Authored comprehensive unit and integration tests to ensure code reliability and maintainability.</li>
-                <li>Updated ESLint rules to enforce a consistent coding style and migrated to a newer version for enhanced code quality.</li>
-                <li>Collaborated effectively with a cross-functional team, participating in code reviews and knowledge-sharing sessions.</li>
+              <ul className="mt-4 list-arrow space-y-4">
+                <li> Rewrote legacy code from callbacks to async/await, improving performance by approximately 40%.</li>
+                <li> Developed an AI image generation bot using the OpenAI API, with robust fallback mechanisms for failure scenarios.</li>
+                <li> Authored comprehensive unit and integration tests to ensure code reliability and maintainability.</li>
+                <li> Updated ESLint rules to enforce a consistent coding style and migrated to a newer version for enhanced code quality.</li>
+                <li> Collaborated effectively with a cross-functional team, participating in code reviews and knowledge-sharing sessions.</li>
               </ul>
             </div>
 
@@ -46,10 +46,10 @@ const Experience = () => {
                   </div>
                 </div>
               </div>
-              <ul className="mt-4 list-disc list-inside">
-                <li>Provided tutoring support for the Introduction to Computer Science course, with an emphasis on C++.</li>
-                <li>Successfully assisted an average of 6 students per hour during high-demand tutoring sessions.</li>
-                <li>Offered tailored guidance to students encountering complex challenges in advanced computer science topics.</li>
+              <ul className="mt-4 list-arrow space-y-4">
+                <li> Provided tutoring support for the Introduction to Computer Science course, with an emphasis on C++.</li>
+                <li> Successfully assisted an average of 6 students per hour during high-demand tutoring sessions.</li>
+                <li> Offered tailored guidance to students encountering complex challenges in advanced computer science topics.</li>
               </ul>
             </div>
           </div>
