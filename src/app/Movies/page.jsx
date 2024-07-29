@@ -21,7 +21,6 @@ const Movies = async () => {
   const watchlistToFetch = [
     { title: "The Matrix", year: 1999 },
     { title: "Fight Club", year: 1999 },
-    { title: "Pulp Fiction", year: 1994 },
     // Add more watchlist movies as needed
   ];
 
