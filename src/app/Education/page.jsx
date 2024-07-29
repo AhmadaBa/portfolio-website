@@ -1,7 +1,7 @@
 export default function Education() {
   return (
     <main className="flex flex-col items-center md:h-auto h-fit text-base md:text-lg">
-      <div className="w-5/6 md:w-3/12 text-md flex flex-col">
+      <div className="w-5/6 md:w-5/12 text-md flex flex-col">
         <section className="mb-8 pt-3">
           <div className="space-y-8">
             <div className="pb-4  space-y-2">

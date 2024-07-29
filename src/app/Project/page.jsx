@@ -8,7 +8,7 @@ export const metadata = {
 const Projects = () => {
   return (
     <main className="flex flex-col items-center md:h-auto text-base md:text-lg">
-      <div className="w-5/6 text-md flex flex-col">
+      <div className="w-5/6 md:w-5/12  text-md flex flex-col">
         <section className="mb-8">
           <h2 className="text-3xl mb-4 flex items-center">
             <FaCode className="inline-block mr-2" size={30} />
