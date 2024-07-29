@@ -8,8 +8,8 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className=" border border-yellow-950 flex flex-col items-center md:h-fit text-base md:text-lg ">
-      <div className=" border border-yellow-950  w-5/6 md:w-6/12 text-md flex flex-col">
+    <main className="flex flex-col items-center md:h-fit text-base md:text-lg ">
+      <div className="w-5/6 md:w-6/12 text-md flex flex-col">
         <section>
           <h1 className="text-3xl mb-8">Hello, I'm Ahmad 👋</h1>
           <p class="mb-8">I'm a Senior Computer Science student at The University of Texas at Dallas, graduating in Fall 2024 🎓.</p>
