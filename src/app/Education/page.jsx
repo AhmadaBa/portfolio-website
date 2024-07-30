@@ -20,13 +20,13 @@ export default function Education() {
               <p><strong>GPA:</strong> 3.8</p>
               <p><strong>Relevant Coursework:</strong></p>
               <ul class="list-arrow">
-                <li>Advanced Data Structures & Algorithms</li>
-                <li>Machine Learning</li>
-                <li>Computer Architecture</li>
-                <li>Database Systems</li>
-                <li>UNIX</li>
-                <li>Operating Systems</li>
-                <li>Automata Theory</li>
+                <li> Advanced Data Structures & Algorithms</li>
+                <li> Machine Learning</li>
+                <li> Computer Architecture</li>
+                <li> Database Systems</li>
+                <li> UNIX</li>
+                <li> Operating Systems</li>
+                <li> Automata Theory</li>
               </ul>
             </div>
 
@@ -41,8 +41,8 @@ export default function Education() {
               <p className="mt-5"><strong>GPA:</strong> 4.0</p>
               <p><strong>Relevant Coursework:</strong></p>
               <ul class="list-arrow">
-                <li>Linear Algebra</li>
-                <li>Discrete Mathematics</li>
+                <li> Linear Algebra</li>
+                <li> Discrete Mathematics</li>
               </ul>           
             </div>
 
@@ -58,13 +58,14 @@ export default function Education() {
               <p><strong>GPA:</strong> 3.9</p>
               <p><strong>Relevant Coursework:</strong></p>
               <ul class="list-arrow">
-                <li>Computer Science I</li>
-                <li>Computer Science II</li>
-                <li>Calculus I</li>
-                <li>Calculus II</li>
-                <li>Calculus III</li>
-                <li>Differential Equations</li>
-              </ul>            </div>
+                <li> Computer Science I</li>
+                <li> Computer Science II</li>
+                <li> Calculus I</li>
+                <li> Calculus II</li>
+                <li> Calculus III</li>
+                <li> Differential Equations</li>
+              </ul>            
+            </div>
           </div>
         </section>
       </div>

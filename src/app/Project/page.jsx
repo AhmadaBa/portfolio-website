@@ -39,7 +39,7 @@ const Projects = () => {
                   <h3 className="text-xl font-semibold">ZooKeeper Leader Election</h3>
                 </div>
               </div>
-              <p className="mt-2"><strong>Technologies:</strong> Java, Git, Maven, Apache ZooKeeper</p>
+              <p className="mt-2"><strong>Technologies:</strong><em> Java, Git, Maven, Apache ZooKeeper </em></p>
               <ul className="mt-2 list-arrow space-y-4">
                 <li> Architected and implemented a leader election mechanism using Apache ZooKeeper to ensure leadership within a distributed system.</li>
                 <li> Created a fault-tolerant application capable of dynamic leader election, enhancing system reliability and scalability.</li>
@@ -56,7 +56,7 @@ const Projects = () => {
                   <h3 className="text-xl font-semibold">Portfolio Website</h3>
                 </div>
               </div>
-              <p className="mt-2"><strong>Technologies:</strong> JavaScript, React.js, Next.js, Node.js, Tailwind CSS, React Icons, RESTful api, Git</p>
+              <p className="mt-2"><strong>Technologies:</strong><em> JavaScript, React.js, Next.js, Node.js, Tailwind CSS, React Icons, RESTful api, Git </em></p>
               <ul className="mt-2 list-arrow space-y-4">
                 <li>Developed a responsive personal website using React.js and Next.js, showcasing advanced web development techniques.</li>
                 <li>Implemented dynamic routing and server-side rendering with Next.js to enhance user navigation and experience.</li>
