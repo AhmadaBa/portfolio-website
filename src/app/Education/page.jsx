@@ -19,7 +19,8 @@ export default function Education() {
               <p className="mt-5"><strong>Degree:</strong> BS Computer Science</p>
               <p><strong>GPA:</strong> 3.8</p>
               <p><strong>Relevant Coursework:</strong></p>
-              <ul className="list-arrow">
+              <p class="hidden md:inline"> Advanced Data Structures & Algorithms, Machine Learning, Computer Architecture, Database Systems, UNIX, Operating Systems, Automata Theory.</p>
+              <ul className="md:hidden list-arrow">
                 <li> Advanced Data Structures & Algorithms</li>
                 <li> Machine Learning</li>
                 <li> Computer Architecture</li>
@@ -40,7 +41,8 @@ export default function Education() {
               </div>
               <p className="mt-5"><strong>GPA:</strong> 4.0</p>
               <p><strong>Relevant Coursework:</strong></p>
-              <ul className="list-arrow">
+              <p class="hidden md:inline"> Linear Algebra, Discrete Mathematics.</p>
+              <ul className="md:hidden list-arrow">
                 <li> Linear Algebra</li>
                 <li> Discrete Mathematics</li>
               </ul>           
@@ -56,8 +58,9 @@ export default function Education() {
               </div>
               <p className="mt-5"><strong>Degree:</strong> AA General Studies</p>
               <p><strong>GPA:</strong> 3.9</p>
-              <p><strong>Relevant Coursework:</strong></p>
-              <ul className="list-arrow">
+              <p><strong>Relevant Coursework: </strong></p>
+              <p class="hidden md:inline">Computer Science 1, Computer Science 2, Calculus 1, Calculus 2, Calculus 3, Differential Equations.</p>
+              <ul className="md:hidden  list-arrow">
                 <li> Computer Science I</li>
                 <li> Computer Science II</li>
                 <li> Calculus I</li>
