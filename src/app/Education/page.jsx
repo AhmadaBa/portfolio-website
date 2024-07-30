@@ -8,9 +8,9 @@ export default function Education() {
       <div className="w-5/6 md:w-5/12 text-md flex flex-col">
         <section className="mb-8 pt-3">
           <div className="space-y-8">
-            <div className="pb-4  space-y-2">
+            <div className="pb-4 space-y-2 opacity-0 animate-fadeIn" style={{ animationDelay: '0.3s' }}>
               <div className="flex items-center">
-              <img src="/logos/UTD.jpg" alt="UTD Logo" className="w-12 h-12 mr-2 rounded-full" />
+                <img src="/logos/UTD.jpg" alt="UTD Logo" className="w-12 h-12 mr-2 rounded-full" />
                 <div className="flex flex-col">
                   <h3 className="font-semibold">University of Texas at Dallas</h3>
                   <p className="text-gray-500 pt-1">Spring 2023 - Fall 2024</p>
@@ -19,7 +19,7 @@ export default function Education() {
               <p className="mt-5"><strong>Degree:</strong> BS Computer Science</p>
               <p><strong>GPA:</strong> 3.8</p>
               <p><strong>Relevant Coursework:</strong></p>
-              <ul class="list-arrow">
+              <ul className="list-arrow">
                 <li> Advanced Data Structures & Algorithms</li>
                 <li> Machine Learning</li>
                 <li> Computer Architecture</li>
@@ -30,7 +30,7 @@ export default function Education() {
               </ul>
             </div>
 
-            <div className="pb-4  space-y-2">
+            <div className="pb-4 space-y-2 opacity-0 animate-fadeIn" style={{ animationDelay: '0.6s' }}>
               <div className="flex items-center">
                 <img src="/logos/Dallas-College.jpg" alt="Dallas College Logo" className="w-12 h-12 mr-2 rounded-full" />
                 <div className="flex flex-col">
@@ -40,13 +40,13 @@ export default function Education() {
               </div>
               <p className="mt-5"><strong>GPA:</strong> 4.0</p>
               <p><strong>Relevant Coursework:</strong></p>
-              <ul class="list-arrow">
+              <ul className="list-arrow">
                 <li> Linear Algebra</li>
                 <li> Discrete Mathematics</li>
               </ul>           
             </div>
 
-            <div className="pb-4 space-y-2">
+            <div className="pb-4 space-y-2 opacity-0 animate-fadeIn" style={{ animationDelay: '0.9s' }}>
               <div className="flex items-center">
                 <img src="/logos/Moraine Valley.jpg" alt="Moraine Valley Logo" className="w-12 h-12 mr-2 rounded-full" />
                 <div className="flex flex-col">
@@ -57,7 +57,7 @@ export default function Education() {
               <p className="mt-5"><strong>Degree:</strong> AA General Studies</p>
               <p><strong>GPA:</strong> 3.9</p>
               <p><strong>Relevant Coursework:</strong></p>
-              <ul class="list-arrow">
+              <ul className="list-arrow">
                 <li> Computer Science I</li>
                 <li> Computer Science II</li>
                 <li> Calculus I</li>

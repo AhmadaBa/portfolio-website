@@ -8,24 +8,24 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center md:h-fit text-base md:text-lg ">
+    <main className="flex flex-col items-center md:h-fit text-base md:text-lg">
       <div className="w-5/6 md:w-6/12 text-md flex flex-col">
-        <section>
+        <section className="opacity-0 animate-fadeIn" style={{ animationDelay: '0.2s' }}>
           <h1 className="text-3xl mb-8">Hello, I'm Ahmad 👋</h1>
-          <p class="mb-8">I'm a Senior Computer Science student at The University of Texas at Dallas, graduating in Fall 2024 🎓.</p>
+          <p className="mb-8">I'm a Senior Computer Science student at The University of Texas at Dallas, graduating in Fall 2024 🎓.</p>
         </section>
 
-        <section>
+        <section className="opacity-0 animate-fadeIn" style={{ animationDelay: '0.4s' }}>
           <p className="mb-8">I am deeply passionate about coding 💻 and the limitless opportunities it offers in technology 🚀.</p>
         </section>
 
-        <section>
+        <section className="opacity-0 animate-fadeIn" style={{ animationDelay: '0.6s' }}>
           <p className="mb-8">I thrive on collaborating within teams 🤝, where I can leverage collective creativity and skills to solve complex problems and develop innovative solutions 🛠️.</p>
         </section>
 
-        <section class="mb-8">
-          <h2 class="text-2xl">In my free time, I enjoy:</h2>
-          <ul class="space-y-2 text-sm md:text-base list-arrow">
+        <section className="opacity-0 animate-fadeIn mb-8" style={{ animationDelay: '0.8s' }}>
+          <h2 className="text-2xl">In my free time, I enjoy:</h2>
+          <ul className="space-y-2 text-sm md:text-base list-arrow">
             <li> Playing chess ♟️</li>
             <li> Watching movies 🎬 & listening to music 🎵</li>
             <li> Spending time with family & friends 👨‍👩‍👧‍👦</li>
@@ -35,9 +35,9 @@ export default function Home() {
           </ul>
         </section>
 
-        <section  class="mb-8">
-          <h2 class="text-2xl">Skills & Interests:</h2>
-          <ul class="space-y-2 text-sm md:text-base list-arrow">
+        <section className="opacity-0 animate-fadeIn mb-8" style={{ animationDelay: '1s' }}>
+          <h2 className="text-2xl">Skills & Interests:</h2>
+          <ul className="space-y-2 text-sm md:text-base list-arrow">
             <li> Backend Development 🐍</li>
             <li> Frontend Development ⚛️</li>
             <li> Deep Learning and Artificial Intelligence 🤖</li>
@@ -46,11 +46,11 @@ export default function Home() {
           </ul>
         </section>
 
-        <section class="space-y-3">
-          <h2 class="text-3xl">Let's Connect!</h2>
+        <section className="opacity-0 animate-fadeIn space-y-3" style={{ animationDelay: '1.2s' }}>
+          <h2 className="text-3xl">Let's Connect!</h2>
           <p>Feel free to reach out to me on LinkedIn or GitHub, or drop me an email!</p>
           <p> I'm always excited to connect with like-minded individuals and explore new opportunities 🌐.</p>
-          <ul class="space-y-1">
+          <ul className="space-y-1">
             <li>
               <a href="https://www.linkedin.com/in/ahmadbakhitalfayez/" className="underline" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className="inline-block mr-2" size={25} />ahmadbakhitalfayez
@@ -63,12 +63,11 @@ export default function Home() {
             </li>
             <li>
               <a href="mailto:ahmadbakhitalfayez@gmail.com" className="underline whitespace-nowrap" target="_blank" rel="noopener noreferrer">
-                <IoIosMail  className="inline-block mr-2" size={25} />ahmadbakhitalfayez@gmail.com
+                <IoIosMail className="inline-block mr-2" size={25} />ahmadbakhitalfayez@gmail.com
               </a>
             </li>
           </ul>
         </section>
-
       </div>
     </main>
   );

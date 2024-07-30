@@ -11,13 +11,13 @@ const Experience = () => {
       <div className="w-5/6 md:w-5/12 text-md flex flex-col">
         <section className="mb-8">
           <div className="space-y-12">
-            <div className="pb-8">
+            <div className="pb-8 opacity-0 animate-fadeIn" style={{ animationDelay: '0.3s' }}>
               <div className="flex justify-between items-center">
                 <div className="flex items-center">
                   <div className="bg-blue-200 p-2 rounded-full mr-4">
                     <FaBriefcase size={25} />
                   </div>
-                  <div class="flex flex-col  ">
+                  <div className="flex flex-col">
                     <h3 className="text-xl font-semibold">Software Engineer Intern</h3>
                     <p className="text-gray-500 mt-1">Mercatalyst, Carrollton, TX</p>
                     <span className="text-gray-500">May 2024 - Present</span>
@@ -33,13 +33,13 @@ const Experience = () => {
               </ul>
             </div>
 
-            <div className="pb-8">
+            <div className="pb-8 opacity-0 animate-fadeIn" style={{ animationDelay: '0.6s' }}>
               <div className="flex justify-between items-center">
                 <div className="flex items-center">
                   <div className="bg-green-200 p-2 rounded-full mr-4">
                     <FaBriefcase size={25} />
                   </div>
-                  <div class="flex flex-col w-auto">
+                  <div className="flex flex-col w-auto">
                     <h3 className="text-xl font-semibold">Computer Science Tutor</h3>
                     <p className="text-gray-500 mt-1">Moraine Valley Community College, Palos Hills, IL</p>
                     <span className="text-gray-500">Jan 2020 - May 2020</span>
