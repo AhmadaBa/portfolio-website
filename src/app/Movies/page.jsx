@@ -7,6 +7,8 @@ export const metadata = {
 };
 
 const Movies = async () => {
+   let movieIndex = 0; 
+
   const topMoviesToFetch = [
     { title: "Inception", year: 2010 },
     { title: "The Big Short", year: 2015 },
@@ -30,7 +32,7 @@ const Movies = async () => {
     const moviePromises = movies.map(movie => fetchMovieImage(movie.title, movie.year));
     const movieResults = await Promise.all(moviePromises);
     return movieResults.map((result, index) => ({
-      id: index + 1,
+      id: ++movieIndex,
       title: result.results[0].title,
       image: `https://image.tmdb.org/t/p/w500/${result.results[0].poster_path}`
     }));
