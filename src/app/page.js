@@ -27,6 +27,7 @@ export default function Home() {
           <h2 className="text-2xl">In my free time, I enjoy:</h2>
           <ul className="space-y-2 text-sm md:text-base list-arrow">
             <li> Playing chess ♟️</li>
+            <li> Enjoying latte art and coffee drinking ☕</li>
             <li> Watching movies 🎬 & listening to music 🎵</li>
             <li> Spending time with family & friends 👨‍👩‍👧‍👦</li>
             <li> Exploring new technologies 🔍</li>
