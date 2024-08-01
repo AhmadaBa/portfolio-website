@@ -11,8 +11,8 @@ export default function Home() {
     <main className="flex flex-col items-center md:h-fit text-base md:text-lg">
       <div className="w-5/6 md:w-6/12 text-md flex flex-col">
         <section className="opacity-0 animate-fadeIn" style={{ animationDelay: '0.2s' }}>
-          <h1 className="text-3xl mb-8">Hello, I'm Ahmad 👋</h1>
-          <p className="mb-8">I'm a Senior Computer Science student at The University of Texas at Dallas, graduating in Fall 2024 🎓.</p>
+        <h1 className="text-3xl mb-8">Hello, I'm Ahmad <span className="inline-block animate-wave">👋</span></h1>
+        <p className="mb-8">I'm a Senior Computer Science student at The University of Texas at Dallas, graduating in Fall 2024 🎓.</p>
         </section>
 
         <section className="opacity-0 animate-fadeIn" style={{ animationDelay: '0.4s' }}>
