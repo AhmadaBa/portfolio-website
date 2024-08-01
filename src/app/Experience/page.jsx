@@ -25,11 +25,11 @@ const Experience = () => {
                 </div>
               </div>
               <ul class="mt-4 list-arrow space-y-4">
-                <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '0.5s' }}>Rewrote legacy code from callbacks to async/await, improving performance by approximately 40%.</li>
-                <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '0.7s' }}>Developed an AI image generation bot using the OpenAI API, with robust fallback mechanisms for failure scenarios.</li>
-                <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '0.9s' }}>Authored comprehensive unit and integration tests to ensure code reliability and maintainability.</li>
-                <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '1.1s' }}>Updated ESLint rules to enforce a consistent coding style and migrated to a newer version for enhanced code quality.</li>
-                <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '1.3s' }}>Collaborated effectively with a cross-functional team, participating in code reviews and knowledge-sharing sessions.</li>
+                <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '0.5s' }}> Refactored legacy code to utilize async/await, resulting in a 40% improvement in system performance and responsiveness.</li>
+                <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '0.7s' }}> Engineered sophisticated REST API controller modules for seamless HTTP request handling, CRUD operations, and integration with MongoDB and Salesforce (Apache Cassandra) databases.</li>
+                <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '0.9s' }}> Played a pivotal role in migrating service APIs from Node.js 18 to Node.js 20, leading to enhanced website loading speeds, increased service reliability, and optimized server memory utilization.</li>
+                <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '1.1s' }}> Authored and implemented comprehensive unit and integration tests, achieving a 30% increase in test coverage across six microservices, thereby significantly enhancing system reliability and maintainability.</li>
+                <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '1.3s' }}> Actively participated in Agile development processes, collaborating with cross-functional teams, conducting code reviews, and contributing to knowledge-sharing sessions, while effectively managing version control using GitHub.</li>
               </ul>
             </div>
 
