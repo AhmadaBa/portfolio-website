@@ -14,8 +14,8 @@ const Experience = () => {
             <div class="pb-8 opacity-0 animate-fadeIn" style={{ animationDelay: '0.3s' }}>
               <div class="flex justify-between items-center">
                 <div class="flex items-center">
-                  <div class="bg-blue-200 p-2 rounded-full mr-4">
-                    <FaBriefcase size={25} />
+                  <div class="flex items-center rounded-full mr-4">
+                    <img src="/work-logos/mercatalyst.jpg" alt="mercatalyst Logo" className="w-14 h-14 mr-2 rounded-full" />
                   </div>
                   <div class="flex flex-col">
                     <h3 class="text-xl font-semibold">Software Engineer Intern</h3>
@@ -37,9 +37,7 @@ const Experience = () => {
             <div class="pb-8 opacity-0 animate-fadeIn" style={{ animationDelay: '1.5s' }}>
               <div class="flex justify-between items-center">
                 <div class="flex items-center">
-                  <div class="bg-green-200 p-2 rounded-full mr-4">
-                    <FaBriefcase size={25} />
-                  </div>
+                  <img src="/school-logos/Moraine Valley.jpg" alt="Moraine Valley Logo" className="w-14 h-14 mr-2 rounded-full" />
                   <div class="flex flex-col w-auto">
                     <h3 class="text-xl font-semibold">Computer Science Tutor</h3>
                     <p class="text-gray-500 mt-1">Moraine Valley Community College, Palos Hills, IL</p>

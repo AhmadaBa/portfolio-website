@@ -10,7 +10,7 @@ export default function Education() {
           <div className="space-y-8">
             <div className="pb-4 space-y-2 opacity-0 animate-fadeIn" style={{ animationDelay: '0.3s' }}>
               <div className="flex items-center">
-                <img src="/logos/UTD.jpg" alt="UTD Logo" className="w-12 h-12 mr-2 rounded-full" />
+                <img src="/school-logos/UTD.jpg" alt="UTD Logo" className="w-14 h-14 mr-2 rounded-full" />
                 <div className="flex flex-col">
                   <h3 className="font-semibold">University of Texas at Dallas</h3>
                   <p className="text-gray-500 pt-1">Spring 2023 - Fall 2024</p>
@@ -33,7 +33,7 @@ export default function Education() {
 
             <div className="pb-4 space-y-2 opacity-0 animate-fadeIn" style={{ animationDelay: '0.6s' }}>
               <div className="flex items-center">
-                <img src="/logos/Dallas-College.jpg" alt="Dallas College Logo" className="w-12 h-12 mr-2 rounded-full" />
+                <img src="/school-logos/Dallas-College.jpg" alt="Dallas College Logo" className="w-14 h-14 mr-2 rounded-full" />
                 <div className="flex flex-col">
                   <h3 className="font-semibold">Dallas College</h3>
                   <p className="text-gray-500 pt-1">Fall 2022 & Summer 2023</p>
@@ -50,7 +50,7 @@ export default function Education() {
 
             <div className="pb-4 space-y-2 opacity-0 animate-fadeIn" style={{ animationDelay: '0.9s' }}>
               <div className="flex items-center">
-                <img src="/logos/Moraine Valley.jpg" alt="Moraine Valley Logo" className="w-12 h-12 mr-2 rounded-full" />
+                <img src="/school-logos/Moraine Valley.jpg" alt="Moraine Valley Logo" className="w-14 h-14 mr-2 rounded-full" />
                 <div className="flex flex-col">
                   <h3 className="font-semibold">Moraine Valley Community College</h3>
                   <p className="text-gray-500 pt-1">Fall 2019 - Spring 2022</p>
