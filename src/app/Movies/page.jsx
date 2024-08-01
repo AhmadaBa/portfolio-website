@@ -45,10 +45,12 @@ const Movies = async () => {
 
   return (
     <main className="flex flex-col items-center md:h-auto text-base md:text-lg">
+      {topMovies && watchlistMovies && (
       <div className="w-5/6 text-md flex flex-col space-y-14">
         <MovieList title="Top Movies" movies={topMovies} />
         <MovieList title="Watchlist" movies={watchlistMovies} />
       </div>
+      )}
     </main>
   );
 };
