@@ -1,13 +1,13 @@
-import "./globals.css";
+import './globals.css';
 import Nav from '../components/Navbar';
 import Footer from '../components/Footer';
 import Head from 'next/head';
-import { Merriweather } from 'next/font/google'
+import { Merriweather } from 'next/font/google';
 
 const merriweather = Merriweather({
   weight: '400',
-  subsets: ['latin'],
-})
+  subsets: ['latin']
+});
 
 export default function RootLayout({ children }) {
   return (

@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Education - Ahmad B",
+  title: 'Education - Ahmad B'
 };
 
 export default function Education() {
@@ -45,7 +45,7 @@ export default function Education() {
               <ul className="md:hidden list-arrow">
                 <li> Linear Algebra</li>
                 <li> Discrete Mathematics</li>
-              </ul>           
+              </ul>
             </div>
 
             <div className="pb-4 space-y-2 opacity-0 animate-fadeIn" style={{ animationDelay: '0.9s' }}>
@@ -67,7 +67,7 @@ export default function Education() {
                 <li> Calculus II</li>
                 <li> Calculus III</li>
                 <li> Differential Equations</li>
-              </ul>            
+              </ul>
             </div>
           </div>
         </section>

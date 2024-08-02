@@ -1,8 +1,7 @@
 import React from 'react';
-import { FaBriefcase } from "react-icons/fa";
 
 export const metadata = {
-  title: "Experience - Ahmad B",
+  title: 'Experience - Ahmad B'
 };
 
 const Experience = () => {
@@ -56,6 +55,6 @@ const Experience = () => {
       </div>
     </main>
   );
-}
+};
 
 export default Experience;

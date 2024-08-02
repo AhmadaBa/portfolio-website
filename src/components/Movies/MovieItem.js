@@ -1,7 +1,7 @@
 import React from 'react';
 
 const MovieItem = ({ index, title, image }) => {
-  const delay = index * 200; 
+  const delay = index * 200;
 
   return (
     <div className="w-1/2 md:w-1/4 p-2 opacity-0 animate-fadeIn" style={{ animationDelay: `${delay}ms` }}>

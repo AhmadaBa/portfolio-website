@@ -1,8 +1,8 @@
 import React from 'react';
-import { FaCode } from "react-icons/fa";
+import { FaCode } from 'react-icons/fa';
 
 export const metadata = {
-  title: "Projects - Ahmad B",
+  title: 'Projects - Ahmad B'
 };
 
 const Projects = () => {
@@ -69,7 +69,7 @@ const Projects = () => {
                 <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '2.9s' }} > Utilized Tailwind CSS for streamlined styling and React Icons for improved visual aesthetics.</li>
                 <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '3.1s' }} > Integrated RESTful APIs to fetch and display dynamic content, enhancing the interactivity of the website.</li>
                 <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '3.3s' }} > Managed version control with Git, ensuring an organized and trackable development process.</li>
-                <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '3.5s' }}> Ensured cross-browser compatibility and optimized the website's performance for various devices and screen sizes.</li>
+                <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '3.5s' }}> Ensured cross-browser compatibility and optimized the website&apos;s performance for various devices and screen sizes.</li>
               </ul>
             </div>
           </div>
@@ -77,6 +77,6 @@ const Projects = () => {
       </div>
     </main>
   );
-}
+};
 
 export default Projects;
