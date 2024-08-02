@@ -24,11 +24,11 @@ const Projects = () => {
                 <strong>Technologies:</strong> <em>React, Tailwind CSS, JavaScript, HTML, SQL, PHP, Apache Webserver, Node.js, Git</em>
               </p>
               <ul className="mt-2 list-arrow space-y-4">
-                <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '0.5s' }} > Engineered a web-based movie review database website using React and Tailwind CSS for a dynamic and responsive user interface.</li>
-                <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '0.7s' }} > Crafted intuitive user forms for submitting movie reviews, incorporating fields for Movie ID, Review Text, and Rating, utilizing JavaScript and PHP for seamless functionality.</li>
-                <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '0.9s' }} > Utilized SQL for efficient data storage and management, ensuring quick and reliable retrieval of movie, actor, and director information.</li>
-                <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '1.1s' }} > Implemented secure user authentication with password hashing to safeguard user credentials.</li>
-                <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '1.3s' }} > Deployed the application on an Apache server, providing a robust and stable environment for development and deployment.</li>
+                <li className="opacity-0 animate-fadeIn" style={{ animationDelay: '0.5s' }} > Engineered a web-based movie review database website using React and Tailwind CSS for a dynamic and responsive user interface.</li>
+                <li className="opacity-0 animate-fadeIn" style={{ animationDelay: '0.7s' }} > Crafted intuitive user forms for submitting movie reviews, incorporating fields for Movie ID, Review Text, and Rating, utilizing JavaScript and PHP for seamless functionality.</li>
+                <li className="opacity-0 animate-fadeIn" style={{ animationDelay: '0.9s' }} > Utilized SQL for efficient data storage and management, ensuring quick and reliable retrieval of movie, actor, and director information.</li>
+                <li className="opacity-0 animate-fadeIn" style={{ animationDelay: '1.1s' }} > Implemented secure user authentication with password hashing to safeguard user credentials.</li>
+                <li className="opacity-0 animate-fadeIn" style={{ animationDelay: '1.3s' }} > Deployed the application on an Apache server, providing a robust and stable environment for development and deployment.</li>
               </ul>
             </div>
 
@@ -45,9 +45,9 @@ const Projects = () => {
                 <strong>Technologies:</strong> <em>Java, Git, Maven, Apache ZooKeeper</em>
               </p>
               <ul className="mt-2 list-arrow space-y-4">
-                <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '1.7s' }} > Architected and implemented a leader election mechanism using Apache ZooKeeper to ensure leadership within a distributed system.</li>
-                <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '1.9s' }} > Created a fault-tolerant application capable of dynamic leader election, enhancing system reliability and scalability.</li>
-                <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '2.1s' }} > Utilized ZooKeeper’s ephemeral sequential znodes for efficient coordination and management of leader election processes.</li>
+                <li className="opacity-0 animate-fadeIn" style={{ animationDelay: '1.7s' }} > Architected and implemented a leader election mechanism using Apache ZooKeeper to ensure leadership within a distributed system.</li>
+                <li className="opacity-0 animate-fadeIn" style={{ animationDelay: '1.9s' }} > Created a fault-tolerant application capable of dynamic leader election, enhancing system reliability and scalability.</li>
+                <li className="opacity-0 animate-fadeIn" style={{ animationDelay: '2.1s' }} > Utilized ZooKeeper’s ephemeral sequential znodes for efficient coordination and management of leader election processes.</li>
               </ul>
             </div>
 
@@ -64,12 +64,12 @@ const Projects = () => {
                 <strong>Technologies:</strong> <em>JavaScript, React.js, Next.js, Node.js, Tailwind CSS, React Icons, RESTful API, Git</em>
               </p>
               <ul className="mt-2 list-arrow space-y-4">
-                <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '2.5s' }} > Developed a responsive personal website using React.js and Next.js, showcasing advanced web development techniques.</li>
-                <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '2.7s' }} > Implemented dynamic routing and server-side rendering with Next.js to enhance user navigation and experience.</li>
-                <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '2.9s' }} > Utilized Tailwind CSS for streamlined styling and React Icons for improved visual aesthetics.</li>
-                <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '3.1s' }} > Integrated RESTful APIs to fetch and display dynamic content, enhancing the interactivity of the website.</li>
-                <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '3.3s' }} > Managed version control with Git, ensuring an organized and trackable development process.</li>
-                <li class="opacity-0 animate-fadeIn" style={{ animationDelay: '3.5s' }}> Ensured cross-browser compatibility and optimized the website&apos;s performance for various devices and screen sizes.</li>
+                <li className="opacity-0 animate-fadeIn" style={{ animationDelay: '2.5s' }} > Developed a responsive personal website using React.js and Next.js, showcasing advanced web development techniques.</li>
+                <li className="opacity-0 animate-fadeIn" style={{ animationDelay: '2.7s' }} > Implemented dynamic routing and server-side rendering with Next.js to enhance user navigation and experience.</li>
+                <li className="opacity-0 animate-fadeIn" style={{ animationDelay: '2.9s' }} > Utilized Tailwind CSS for streamlined styling and React Icons for improved visual aesthetics.</li>
+                <li className="opacity-0 animate-fadeIn" style={{ animationDelay: '3.1s' }} > Integrated RESTful APIs to fetch and display dynamic content, enhancing the interactivity of the website.</li>
+                <li className="opacity-0 animate-fadeIn" style={{ animationDelay: '3.3s' }} > Managed version control with Git, ensuring an organized and trackable development process.</li>
+                <li className="opacity-0 animate-fadeIn" style={{ animationDelay: '3.5s' }}> Ensured cross-browser compatibility and optimized the website&apos;s performance for various devices and screen sizes.</li>
               </ul>
             </div>
           </div>
