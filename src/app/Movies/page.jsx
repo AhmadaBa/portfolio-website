@@ -14,6 +14,7 @@ const Movies = async () => {
     { title: 'The Big Short', year: 2015 },
     { title: 'Percy Jackson And The Lightning Thief', year: 2010 },
     { title: 'Winter\'s Bone', year: 2010 },
+    { title: 'Green Book', year: 2018  },
     { title: 'The Social Network', year: 2010 },
     { title: 'The Conjuring', year: 2013 },
     { title: 'spider man no way home', year: 2021 },
