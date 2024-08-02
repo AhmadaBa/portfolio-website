@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       </Head>
       <body className={`flex flex-col min-h-screen ${merriweather.className}`}>
         <Nav />
-        <main className="flex-grow">
+        <main className="flex-grow min-h-screen">
           {children}
         </main>
         <Footer />
