@@ -39,10 +39,8 @@ const Movies = async () => {
     }));
   };
 
-  const [topMovies, watchlistMovies] = await Promise.all([
-    fetchMovies(topMoviesToFetch),
-    fetchMovies(watchlistToFetch)
-  ]);
+  const topMovies = await fetchMovies(topMoviesToFetch);
+  const watchlistMovies = await fetchMovies(watchlistToFetch);
 
   return (
     <main className="flex flex-col items-center md:h-auto text-base md:text-lg">
