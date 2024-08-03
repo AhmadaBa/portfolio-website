@@ -3,8 +3,8 @@ import Nav from '../components/Navbar';
 import Footer from '../components/Footer';
 import Head from 'next/head';
 import { Merriweather } from 'next/font/google';
-import { Analytics } from "@vercel/analytics/react"
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const merriweather = Merriweather({
   weight: '400',
