@@ -61,7 +61,7 @@ const Projects = () => {
                 </div>
               </div>
               <p className="mt-2">
-                <strong>Technologies:</strong> <em>JavaScript, React.js, Next.js, Node.js, Tailwind CSS, React Icons, RESTful API, Docker, Git</em>
+                <strong>Technologies:</strong> <em>JavaScript, React.js, Next.js, Node.js, Tailwind CSS, React Icons, RESTful API, Docker, ESlint, Git</em>
               </p>
               <ul className="mt-2 list-arrow space-y-4">
                 <li className="opacity-0 animate-fadeIn" style={{ animationDelay: '1.2s' }} > Developed a responsive personal website using React.js and Next.js, showcasing advanced web development techniques.</li>
