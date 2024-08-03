@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
       <Head>
         <meta name="viewport" content="viewport-fit=cover" />
       </Head>
-      <body className={`flex flex-col min-h-screen ${merriweather.className}`}>
+      <body className={`flex flex-col min-h-screen md:pt-32 pt-16 ${merriweather.className}`}>
         <Nav />
         <main className="flex-grow min-h-screen">
           {children}
