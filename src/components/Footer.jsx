@@ -1,28 +1,60 @@
 import React from 'react';
+import { SiTiktok, SiInstagram, SiChessdotcom, SiSpotify  } from 'react-icons/si';
 
 const Footer = () => {
     return (
-        <footer className="bg-inherit text-gray-500 pb-4 md:pb-0 mt-3 md:mt-10">
-            <div className="w-full mx-auto max-w-screen-xl pl-4 md:flex md:items-center md:justify-between">
-                <ul className="flex flex-wrap items-center mt-3 text-sm font-medium sm:mt-0">
-                    <li>
-                    <a href="https://www.instagram.com/ahmad.al.fayez/" className="hover:underline me-4 md:me-6" target="_blank" rel="noopener noreferrer">Instagram</a>
-                    </li>
-                    <li>
-                        <a href="https://open.spotify.com/user/nnwf9tg5gh3qrt53ogharag7r?si=445fd33b18be4cca&nd=1&dlsi=656f3f045a5f4ae8" className="hover:underline me-4 md:me-6" target="_blank" rel="noopener noreferrer">Spotify</a>
-                    </li>
-                    <li>
-                        <a href="https://www.tiktok.com/@ahmadbafayez" className="hover:underline me-4 md:me-6" target="_blank" rel="noopener noreferrer">Tiktok</a>
-                    </li>
-                    <li>
-                        <a href="https://www.chess.com/member/ahmad2ba" className="hover:underline" target="_blank" rel="noopener noreferrer">Chess.com</a>
-                    </li>
-                </ul>
+        <footer className="flex flex-col items-center bg-inherit">
+            <div className="pt-9 flex justify-center space-x-2">
+                <a
+                    href="https://www.instagram.com/ahmad.al.fayez/"
+                    type="button"
+                    className="rounded-full p-3 "
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <span className="mx-auto">
+                        <SiInstagram  className="h-5 w-5" />
+                    </span>
+                </a>
 
-                <span className="text-sm  sm:text-center dark:text-gray-400">© 2024 Ahmad Bakhit Al Fayez. All rights reserved.</span>
+                <a
+                    href="https://open.spotify.com/user/nnwf9tg5gh3qrt53ogharag7r?si=445fd33b18be4cca&nd=1&dlsi=656f3f045a5f4ae8"
+                    type="button"
+                    className="rounded-full  p-3 "
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <span className="mx-auto">
+                        <SiSpotify  className="h-5 w-5" />
+                    </span>
+                </a>
+
+                <a
+                    href="https://www.tiktok.com/@ahmadbafayez"
+                    type="button"
+                    className="rounded-full  p-3 "
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <span className="mx-auto">
+                        <SiTiktok className="h-5 w-5" />
+                    </span>
+                </a>
+
+                <a
+                    href="https://www.chess.com/member/ahmad2ba"
+                    type="button"
+                    className="rounded-full  p-3"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <span className="mx-auto">
+                        <SiChessdotcom className="h-5 w-5" />
+                    </span>
+                </a>
             </div>
-        </footer>
 
+            <div className="w-full p-4 text-center">
+                <span>© 2024 Ahmad Bakhit Al Fayez. All rights reserved.</span>
+            </div>
+
+        </footer>
     );
 };
 
