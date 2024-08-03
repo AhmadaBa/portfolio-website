@@ -17,14 +17,18 @@ export default function Home() {
         </section>
 
         <section className="opacity-0 animate-fadeIn" style={{ animationDelay: '0.2s' }}>
-          <p className="mb-8">I am deeply passionate about coding 💻 and the limitless opportunities it offers in technology 🚀.</p>
+          <p className="mb-8">I am currently seeking full stack software engineering full-time jobs.</p>
         </section>
 
         <section className="opacity-0 animate-fadeIn" style={{ animationDelay: '0.3s' }}>
+          <p className="mb-8">I am deeply passionate about coding 💻 and the limitless opportunities it offers in technology 🚀.</p>
+        </section>
+
+        <section className="opacity-0 animate-fadeIn" style={{ animationDelay: '0.4s' }}>
           <p className="mb-8">I thrive on collaborating within teams 🤝, where I can leverage collective creativity and skills to solve complex problems and develop innovative solutions 🛠️.</p>
         </section>
 
-        <section className="opacity-0 animate-fadeIn mb-8" style={{ animationDelay: '0.4s' }}>
+        <section className="opacity-0 animate-fadeIn mb-8" style={{ animationDelay: '0.5s' }}>
           <h2 className="text-2xl">In my free time, I enjoy:</h2>
           <ul className="space-y-2 text-sm md:text-base list-arrow">
             <li> Playing chess ♟️</li>
@@ -37,7 +41,7 @@ export default function Home() {
           </ul>
         </section>
 
-        <section className="opacity-0 animate-fadeIn mb-8" style={{ animationDelay: '0.5s' }}>
+        <section className="opacity-0 animate-fadeIn mb-8" style={{ animationDelay: '0.6s' }}>
           <h2 className="text-2xl">Skills & Interests:</h2>
           <ul className="space-y-2 text-sm md:text-base list-arrow">
             <li> Backend Development 🐍</li>
@@ -48,7 +52,7 @@ export default function Home() {
           </ul>
         </section>
 
-        <section className="opacity-0 animate-fadeIn space-y-3" style={{ animationDelay: '0.6s' }}>
+        <section className="opacity-0 animate-fadeIn space-y-3" style={{ animationDelay: '0.7s' }}>
           <h2 className="text-3xl">Let&apos;s Connect!</h2>
           <p>Feel free to reach out to me on LinkedIn or GitHub, or drop me an email!</p>
           <p> I&apos;m always excited to connect with like-minded individuals and explore new opportunities 🌐.</p>
