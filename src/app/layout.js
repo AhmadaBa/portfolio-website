@@ -3,6 +3,7 @@ import Nav from '../components/Navbar';
 import Footer from '../components/Footer';
 import Head from 'next/head';
 import { Merriweather } from 'next/font/google';
+import { Analytics } from "@vercel/analytics/react"
 
 const merriweather = Merriweather({
   weight: '400',
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
           {children}
         </main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
