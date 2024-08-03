@@ -35,7 +35,7 @@ const Navbar = () => {
                                 <span className="hidden md:inline">Education</span>
                             </Link>
                         </li>
-                        
+
                         <li className="hover:scale-110" style={{ color: pathname === '/Project' ? '#FF7F50' : 'white' }}>
                             <Link href="/Project" className="md:block md:py-2 md:px-3">
                                 <MdOutlineComputer className="inline align-middle mr-2" size={25} />
