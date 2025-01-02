@@ -21,14 +21,6 @@ const Movies = async () => {
     { title: 'The Fast and the Furious: Tokyo Drift', year: 2006 }
   ];
 
-  const watchlistToFetch = [
-    { title: 'Oppenheimer', year: 2023 },
-    { title: 'interstellar', year: 2014 },
-    { title: 'Napoleon', year: 2023 },
-    { title: 'The Equalizer 3', year: 2023 },
-    { title: 'Dune: Part Two', year: 2024 }
-  ];
-
   const fetchMovies = async (movies) => {
     const moviePromises = movies.map(movie => fetchMovieImage(movie.title, movie.year));
     const movieResults = await Promise.all(moviePromises);
@@ -40,14 +32,12 @@ const Movies = async () => {
   };
 
   const topMovies = await fetchMovies(topMoviesToFetch);
-  const watchlistMovies = await fetchMovies(watchlistToFetch);
 
   return (
     <main className="flex flex-col items-center md:h-auto text-base md:text-lg">
-      {topMovies.every(movie => movie.image) && watchlistMovies.every(movie => movie.image) && (
+      {topMovies.every(movie => movie.image) && (
         <div className="w-5/6 text-md flex flex-col space-y-14">
           <MovieList title="Top Movies" movies={topMovies} />
-          <MovieList title="Watchlist" movies={watchlistMovies} />
         </div>
       )}
     </main>
