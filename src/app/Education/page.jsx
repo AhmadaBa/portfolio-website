@@ -17,7 +17,7 @@ export default function Education() {
                 </div>
               </div>
               <p className="mt-5"><strong>Degree:</strong> BS Computer Science</p>
-              <p><strong>GPA:</strong> 3.8</p>
+              <p><strong>GPA:</strong> 3.7</p>
               <p><strong>Relevant Coursework:</strong></p>
               <p className="hidden md:inline"> Advanced Data Structures & Algorithms, Machine Learning, Computer Architecture, Database Systems, UNIX, Operating Systems, Automata Theory.</p>
               <ul className="md:hidden list-arrow">
