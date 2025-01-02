@@ -19,7 +19,7 @@ const Experience = () => {
                   <div className="flex flex-col">
                     <h3 className="text-xl font-semibold">Software Engineer Intern</h3>
                     <p className="text-gray-500 mt-1">Mercatalyst, Carrollton, TX</p>
-                    <span className="text-gray-500">May 2024 - Present</span>
+                    <span className="text-gray-500">May 2024 - December 2024</span>
                   </div>
                 </div>
               </div>

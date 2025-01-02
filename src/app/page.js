@@ -13,11 +13,11 @@ export default function Home() {
       <div className="w-5/6 md:w-6/12 text-md flex flex-col">
         <section className="opacity-0 animate-fadeIn" style={{ animationDelay: '0.1s' }}>
         <h1 className="text-3xl mb-8">Hello, I&apos;m Ahmad <span className="inline-block animate-wave">👋</span></h1>
-        <p className="mb-8">I&apos;m a Senior Computer Science student at The University of Texas at Dallas, graduating in Fall 2024 🎓.</p>
+        <p className="mb-8">I&apos;m a Computer Science BS graduate from The University of Texas at Dallas 🎓.</p>
         </section>
 
         <section className="opacity-0 animate-fadeIn" style={{ animationDelay: '0.2s' }}>
-          <p className="mb-8">I am currently seeking full stack software engineering full-time jobs.</p>
+          <p className="mb-8">I am currently working as a full stack software engineer.</p>
         </section>
 
         <section className="opacity-0 animate-fadeIn" style={{ animationDelay: '0.3s' }}>
