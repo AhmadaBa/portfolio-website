@@ -1,5 +1,4 @@
 import React from 'react';
-import { SiTiktok, SiInstagram, SiChessdotcom, SiSpotify  } from 'react-icons/si';
 
 const Footer = () => {
     return (
