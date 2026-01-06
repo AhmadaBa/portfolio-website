@@ -14,7 +14,7 @@ const Experience = () => {
               <div className="flex justify-between items-center">
                 <div className="flex items-center">
                   <div className="flex items-center rounded-full mr-4">
-                    <img src="/work-logos/mercatalyst.jpg" alt="mercatalyst Logo" className="w-14 h-14 mr-2 rounded-full" />
+                    <img src="/work-logos/stores.jpg" alt="stores.com Logo" className="w-14 h-14 mr-2 rounded-full" />
                   </div>
                   <div className="flex flex-col">
                     <h3 className="text-xl font-semibold">Software Engineer</h3>
@@ -28,7 +28,7 @@ const Experience = () => {
               <div className="flex justify-between items-center">
                 <div className="flex items-center">
                   <div className="flex items-center rounded-full mr-4">
-                    <img src="/work-logos/mercatalyst.jpg" alt="mercatalyst Logo" className="w-14 h-14 mr-2 rounded-full" />
+                    <img src="/work-logos/stores.jpg" alt="mercatalyst Logo" className="w-14 h-14 mr-2 rounded-full" />
                   </div>
                   <div className="flex flex-col">
                     <h3 className="text-xl font-semibold">Software Engineer Intern</h3>

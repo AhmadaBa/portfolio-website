@@ -51,7 +51,7 @@ const Footer = () => {
             </div>
 
             <div className="w-full p-4 text-center">
-                <span>© 2024 Ahmad Bakhit Al Fayez. All rights reserved.</span>
+                <span>© 2026 Ahmad Bakhit Al Fayez. All rights reserved.</span>
             </div>
 
         </footer>
